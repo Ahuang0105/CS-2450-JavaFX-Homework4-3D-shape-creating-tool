@@ -1,0 +1,91 @@
+.root
+{
+   -fx-background-color: #ECF0F1;
+   -fx-font-family: monospace;
+   -fx-font: 10pt "monospace";
+   -fx-text-fill: #17202A;
+}
+#menubar
+ {
+     -fx-text-fill: #ECF0F1;
+     -fx-background-color: #ECF0F1;
+ }
+
+ #menu1
+ {
+     -fx-text-fill:#ECF0F1;
+     -fx-background-color: #ECF0F1;
+
+ }
+
+ #menu1:pressed
+ {
+      -fx-background-color: #ECF0F1;
+      -fx-text-fill: black;
+ }
+
+ #menu1:hover
+ {
+     -fx-border-style: solid;
+     -fx-border-color: #263238;
+ }
+
+.menu
+{
+   -fx-text-fill: #212121 ;
+   -fx-background-color: #ECF0F1;
+}
+
+.label {
+    -fx-text-fill: #17202A;
+    -fx-font-family: monospace;
+}
+
+.button{
+    -fx-font: 10pt "monospace";
+    -fx-font-family: monospace;
+    -fx-background-color: #738598;
+}
+
+.button:hover
+{
+    -fx-effect: dropshadow(three-pass-box, #263238, 5, 0, 1, 1);
+}
+
+.button:pressed
+{
+   -fx-background-color: #D7DBDD;
+   -fx-text-fill: black;
+}
+
+#radioButton{
+   -fx-font: 10pt "monospace";
+   fx-text-fill: #212121 ;
+}
+
+.text-field {
+    -fx-faint-focus-color: #eadea6 ;
+}
+
+.list-cell
+{
+    -fx-background-color:#F8F9F9;
+    -fx-text-fill: #17202A;
+}
+
+.list-cell:filled:selected:focused, .list-cell:filled:selected {
+
+    -fx-background-color: #D7DBDD;
+    -fx-text-fill: black;
+
+}
+
+#color-slider{
+    -progress : 0.2;
+}
+
+#color-slider .axis{
+    -fx-tick-label-fill: #C62828;
+}
+
+
